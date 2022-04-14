@@ -6,11 +6,12 @@ import numpy
 data = pandas.read_csv('data_linear.csv').values
 
 
-
+# Tong so diem 
 N = data.shape[0]
-x = data[:, 0].reshape(-1, 1)
-y = data[:, 1].reshape(-1, 1)
+# Du lieu cot 1
+x = data[:,0]
+# Du lieu cot 2
+y = data[:,1]
 
-print(N)
 print(x)
 print(y)
