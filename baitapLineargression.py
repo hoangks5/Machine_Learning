@@ -24,3 +24,4 @@ w = np.array([[0],[1],[1],[1],[1]])
 r = np.dot(data,w)-y
 print(r)
 # r = Yi - y
+print(r)
