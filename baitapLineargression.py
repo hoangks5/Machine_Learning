@@ -53,4 +53,4 @@ while True:
       xc = int(input('Tuổi: '))
       xd = int(input('Bếp: '))
       tien = w[0]+xa*w[1]+xb*w[2]+xc*w[3]+xd*w[4]
-      print(tien)
+      print(tien) 
